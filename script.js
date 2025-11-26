@@ -102,6 +102,11 @@ async function fetchNewTokens() {
       console.error(err)
     }
 }
+fetchNewTokens();
+setInterval(()=>{
+  contentBox.textContent = ''
+  fetchNewTokens();
+}, 15000)
 refresh.addEventListener('click', () => {
   contentBox.textContent = ''
   fetchNewTokens()
