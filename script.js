@@ -97,6 +97,25 @@ async function fetchNewTokens() {
       contentBox.appendChild(box)
 
 
+      if(!twitter){
+        twitterLink.style.opacity = '0.3'
+        twitterLink.href = '#'
+        twitterLink.target = '_self'
+      }
+      if(!telegram){
+        telegramLink.style.opacity = '0.3'
+        telegramLink.href = '#'
+        telegramLink.target = "_self"
+      }
+      if(!website){
+        websiteLink.style.opacity = '0.3'
+        websiteLink.href = '#'
+        websiteLink.target = '_self'
+      }
+
+      if(!description){
+        des.textContent = 'No description...'
+      }
     }
   }
   catch (err) {
