@@ -60,11 +60,11 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 42%;
+    width: 25%;
 }
-.image-sec img{
+#wee{
     width: 100%;
-    height: 130%;
+    height: 120%;
 }
 .blab-sec{
     display: flex;
@@ -72,6 +72,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 70%;
     gap: 10px;
 }
 .name{
@@ -82,22 +83,31 @@
 .description{
     width: 100%;
     font-size: 14px;
+    flex-wrap: wrap;
 }
 .action{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
     padding: 0px 0px;
 }
 .chain{
+    color: black;
+    text-decoration: none;
+    flex: 1 1;
     font-size: 14px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:1px 10px;
+    padding: 0px 7px;
     border-radius: 8px;
     gap: 3px;
     border: 2px solid black;
+}
+#hh{
+    text-decoration: none;
+    color: black;
 }
