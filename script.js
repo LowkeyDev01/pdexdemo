@@ -124,5 +124,8 @@ async function fetchNewTokens() {
 }
 
 
-
-fetchNewTokens()
+fetchNewTokens();
+setInterval(() =>{
+  contentBox.textContent = ''
+  fetchNewTokens();
+}, 25000)
