@@ -116,7 +116,7 @@
 
 @media(min-width: 900px){
     .content{
-        width: 50%;
+        width: 60%;
         overflow-x: hidden;
     }
     .box{
